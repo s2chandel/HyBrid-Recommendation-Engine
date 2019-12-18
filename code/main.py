@@ -81,10 +81,4 @@ def final_recommendations(user,article_id):
     "top_recommended_user_interests":response,
     "top_rated":top_rated()}
 
- response = top_recommended_user_interests(user)
-#         else:
-#             response = []
-#     return {"live_recommendations":article_based,
-#     "top_recommended_user_interests":response,
-#     "top_rated":top_rated_en_gb()}
-# """
+
